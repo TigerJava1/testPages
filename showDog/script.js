@@ -11,7 +11,10 @@ const noImages = [
     "./showDog/targetImages/5@3x.png",
     "./showDog/targetImages/6@3x.png",
     "./showDog/targetImages/7@3x.png",
-    "./showDog/targetImages/8@3x.png"
+    "./showDog/targetImages/8@3x.png",
+    "./showDog/targetImages/9@3x.png",
+    "./showDog/targetImages/10@3x.png"
+
     
 ]
 const noTexts = [
@@ -22,7 +25,9 @@ const noTexts = [
     "不许选这个",
     "我会很伤心的",
     "不行!",
-    "对不起,我真知道错了",
+    "对不起,我真的知道错了",
+	"比心~ I love U！！！",
+	"比心~ I love U！！！"
 ];
 
 let name = ''
@@ -35,7 +40,7 @@ let clickCount = 0;
 
 noButton.addEventListener("click", function () {
     clickCount += 1;
-    if (clickCount <= 8) {
+    if (clickCount <= 10) {
         showImage.src = noImages[clickCount - 1]
         questionText.innerText = noTexts[clickCount - 1];
     }
