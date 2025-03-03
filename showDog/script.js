@@ -4,7 +4,6 @@ const questionText2 = document.getElementById("question2");
 const yesButton = document.getElementById("yes");
 const noButton = document.getElementById("no");
 const noImages = [
-    "./showDog/targetImages/1@3x.png",
     "./showDog/targetImages/2@3x.png",
     "./showDog/targetImages/3@3x.png",
     "./showDog/targetImages/4@3x.png",
@@ -13,6 +12,7 @@ const noImages = [
     "./showDog/targetImages/7@3x.png",
     "./showDog/targetImages/8@3x.png",
     "./showDog/targetImages/9@3x.png",
+    "./showDog/targetImages/10@3x.png",
     "./showDog/targetImages/10@3x.png"
 
     
@@ -59,7 +59,7 @@ yesButton.addEventListener("click", function () {
     document.body.innerHTML = `
         <div class="yes-wrapper">
             <p class="yes-text">汪~我就知道</p>
-            <img src="./showDog/targetImages/1@3x.png" alt="开心" class="yes-image">
+            <img src="./showDog/targetImages/9@3x.png" alt="开心" class="yes-image">
         </div>
     `;
 });
